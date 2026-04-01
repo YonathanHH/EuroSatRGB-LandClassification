@@ -6,7 +6,7 @@ Satellite image classification using Sentinel-2 RGB imagery across
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-EuroSAT_RGB-blue)](https://huggingface.co/datasets/blanchon/EuroSAT_RGB)
 [![Model](https://img.shields.io/badge/🤗%20Model-ViT--Base-green)](https://huggingface.co/YOUR_USERNAME/eurosat-vit-base)
 
-## 🌍 Overview
+## Overview
 
 Land use and land cover (LULC) classification from satellite imagery
 supports renewable energy siting, urban planning, and environmental monitoring.
@@ -17,7 +17,7 @@ dataset and evaluates them.
 
 ---
 
-## 🏗️ Pipeline
+## Pipeline
 
 | Notebook | Description |
 |---|---|
@@ -27,19 +27,20 @@ dataset and evaluates them.
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Val Accuracy | Macro F1 | Train Time |
 |---|---|---|---|
-| ResNet-18 | ~93% | ~92% | ~18 min |
-| EfficientNet-B0 | ~96% | ~95% | ~22 min |
-| **ViT-Base** ✅ | **~98%** | **~98%** | ~55 min |
+| ResNet-18 | ~93% | ~92% | ~3.6 min |
+| EfficientNet-B0 | ~96% | ~95% | ~5.9 min |
+| **ViT-Base** ✅ | **~98%** | **~98%** | ~15.2 min |
 
+> Train time when used: Google T4 GPU
 > Benchmark reference: Helber et al. (2019) — 98.57% on EuroSAT RGB
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── 1_EDA_EuroSAT.ipynb
