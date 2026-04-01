@@ -82,6 +82,8 @@ Applied Earth Observations and Remote Sensing.
 ## Author
 
 **Yonathan Hary Hutagalung** — Sustainable Energy Science | Data Science
+
 [LinkedIn](https://linkedin.com/in/yonathanhary) 
+
 [Portfolio Site](https://yonathanhh.github.io/)
 
