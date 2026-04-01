@@ -2,6 +2,7 @@
 
 Satellite image classification using Sentinel-2 RGB imagery across
 10 land-cover classes, built with Hugging Face Transformers.
+![Overview](gallery/Data_Example.png)
 
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-EuroSAT_RGB-blue)](https://huggingface.co/datasets/blanchon/EuroSAT_RGB)
 [![Model](https://img.shields.io/badge/🤗%20Model-ViT--Base-green)](https://huggingface.co/YOUR_USERNAME/eurosat-vit-base)
@@ -29,17 +30,18 @@ dataset and evaluates them.
 
 ## Results
 
-| Model | Val Accuracy | Macro F1 | Train Time |
-|---|---|---|---|
-| ResNet-18 | ~93% | ~92% | ~3.6 min |
-| EfficientNet-B0 | ~96% | ~95% | ~5.9 min |
-| **ViT-Base** ✅ | **~98%** | **~98%** | ~15.2 min |
-
+![Results](gallery/model_comparison_chart.png)
 > Train time when used: Google T4 GPU
 > Benchmark reference: Helber et al. (2019) — 98.57% on EuroSAT RGB
 
 ---
-
+## Deep Evaluation
+Example of deep Evaluation
+- Confusion pairs
+![confpair](gallery/conf_pairs.png)
+- Wrong Predictions
+![wrongpred](gallery/wrong_pred.png)
+---
 ## Repository Structure
 
 ```
@@ -57,7 +59,7 @@ dataset and evaluates them.
 
 ---
 
-## 📚 Reference
+## Reference
 
 Helber, P., Bischke, B., Dengel, A., & Borth, D. (2019).
 *EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use
@@ -66,7 +68,13 @@ Applied Earth Observations and Remote Sensing.
 
 ---
 
-## 👤 Author
+## What to improve next?
+- Deployment using native hugging face gradio
+- Model Interpretability using EigenCAM
+
+---
+
+## Author
 
 **Yonathan Hary Hutagalung** — Sustainable Energy Science | Data Science
 [LinkedIn](https://linkedin.com/in/yonathanhary) 
