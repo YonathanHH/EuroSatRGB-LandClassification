@@ -37,10 +37,15 @@ dataset and evaluates them.
 ---
 ## Deep Evaluation
 Example of deep Evaluation
+
 - Confusion pairs
+
 ![confpair](gallery/conf_pairs.png)
+
 - Wrong Predictions
+
 ![wrongpred](gallery/wrong_pred.png)
+
 ---
 ## Repository Structure
 
