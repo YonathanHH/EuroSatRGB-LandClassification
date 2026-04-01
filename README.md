@@ -51,9 +51,8 @@ dataset and evaluates them.
 │ ├── training_args.bin
 │ └── best_model_meta.json
 └── README.md
-
-[model safetensor link](https://drive.google.com/drive/folders/1I9UTsSQ7Sz3jUrEKkfytpaM_YTKjSN17?usp=sharing)
 ```
+[model safetensor link](https://drive.google.com/drive/folders/1I9UTsSQ7Sz3jUrEKkfytpaM_YTKjSN17?usp=sharing)
 
 ---
 
